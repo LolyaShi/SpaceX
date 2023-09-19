@@ -1,0 +1,38 @@
+.Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 183px 0 130px 0;
+}
+.Footer p{
+    margin-top: 28px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #808080;
+}
+.Footer button{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 20px 86px;
+    border: solid 2px #fff;
+    border-radius: 6px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+.Footer ul{
+    margin-top: 43px;
+}
+.Footer li{
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 20px;
+}
+.Footer li:last-child{
+    margin: 0;
+}
+.Footer a{
+    text-decoration: none;
+    color: #fff;
+}

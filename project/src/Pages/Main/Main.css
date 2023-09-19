@@ -1,0 +1,77 @@
+.Main{
+    margin-top: 122px;
+    padding: 0 105px 0 149px;
+}
+.Main section:first-child{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-section{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-section::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 59px;
+    background-color: #fff;
+    margin-top: 26px;
+    
+}
+.top-section h1{
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+}
+.top-section p{
+    max-width: 268px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 140%;
+    text-transform: lowercase;
+    margin-top: 28px;
+}
+
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-section h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+.item__about{
+    margin-top: 218px;
+}
+.item__about p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28.75px;
+    margin-top: 45px;
+    max-width: 490px;
+}
+.item__data table{
+    margin-top: 34px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.344px;
+    
+}
+.item__data table th{
+    text-transform: uppercase;
+    padding: 5.5px 0;
+}
+.item__data table td{
+    padding-left:130px;
+    
+    
+}
