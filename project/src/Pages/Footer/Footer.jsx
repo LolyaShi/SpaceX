@@ -9,7 +9,7 @@ function Footer() {
             </div>
             <ul>
                 <li><a href="">Twitter</a></li>
-                <li><a href="">Youtube</a></li>
+                <li><a href="https://www.youtube.com/" target="blanck">Youtube</a></li>
                 <li><a href="">Instagram</a></li>
                 <li><a href="">Flickr</a></li>
                 <li><a href="">LinkedIn</a></li>

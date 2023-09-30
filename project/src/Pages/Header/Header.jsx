@@ -1,5 +1,6 @@
 import './Header.css';
 import logo from "../../img/logo.svg"
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
@@ -9,10 +10,10 @@ function Header() {
             </div>
             <nav>
                 <ul className="top__menu">
-                    <li key={1}><a href="">Falcon 9</a></li>
-                    <li key={2}><a href="">Falcon Heavy</a></li>
-                    <li key={3}><a href="">Dragon</a></li>
-                    <li key={4}><a href="">Updates</a></li>
+                    <li key={1}><Link to="/Falcon ">Falcon 9</Link></li>
+                    <li key={2}><Link to="/Main">Falcon Heavy</Link></li>
+                    <li key={3}><Link to="/Dragon">Dragon</Link></li>
+                    <li key={4}><Link to="">Updates</Link></li>
                 </ul>
             </nav>
             <div className="side__nav">

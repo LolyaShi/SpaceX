@@ -75,3 +75,12 @@
     
     
 }
+.img-item{
+    display: flex;
+    flex: 0 1 50%;
+    justify-content: flex-end;
+}
+.img-item img{
+    max-width: 100%;
+   
+}
