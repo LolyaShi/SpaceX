@@ -13,7 +13,7 @@ function Header() {
                     <li key={1}><Link to="/Falcon ">Falcon 9</Link></li>
                     <li key={2}><Link to="/Main">Falcon Heavy</Link></li>
                     <li key={3}><Link to="/Dragon">Dragon</Link></li>
-                    <li key={4}><Link to="">Updates</Link></li>
+                    <li key={4}><Link to="/Updates">Updates</Link></li>
                 </ul>
             </nav>
             <div className="side__nav">

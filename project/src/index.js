@@ -6,6 +6,7 @@ import Main from './Pages/Main/Main';
 import Footer from './Pages/Footer/Footer';
 import Falcon from './Pages/Falcon/Falcon';
 import Dragon from './Pages/Dragon/Dragon';
+import Updates from './Pages/Updates/Updates';
 
 import {
   createBrowserRouter,
@@ -31,7 +32,8 @@ const router = createBrowserRouter(
       <Route index element={<Main />} />
       <Route path='Main' element={<Main />} />
       <Route path='Falcon' element={<Falcon />} />
-      <Route path='Dragon' element = {<Dragon/>}/>
+      <Route path='Dragon' element={<Dragon />} />
+      <Route path='Updates' element={<Updates />} />
     </Route>
   )
 )
