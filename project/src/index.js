@@ -7,6 +7,7 @@ import Footer from './Pages/Footer/Footer';
 import Falcon from './Pages/Falcon/Falcon';
 import Dragon from './Pages/Dragon/Dragon';
 import Updates from './Pages/Updates/Updates';
+import Welcome from './Pages/Welcome/Welcome';
 
 import {
   createBrowserRouter,
@@ -17,19 +18,20 @@ import {
 } from 'react-router-dom';
 
 const Root = () => {
-  return(
-    <div className='container'>
+  return (
+    <>
       <Header />
       <Outlet />
       <Footer />
-    </div>
+    
+    </>
   )
 }
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element = {<Root/>} >
-      <Route index element={<Main />} />
+      <Route index element={<Welcome />} />
       <Route path='Main' element={<Main />} />
       <Route path='Falcon' element={<Falcon />} />
       <Route path='Dragon' element={<Dragon />} />

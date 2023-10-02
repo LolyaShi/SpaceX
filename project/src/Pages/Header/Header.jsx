@@ -4,9 +4,10 @@ import { Link } from "react-router-dom";
 
 function Header() {
     return (
-        <div className="Header">
+        <div className="container">
+            <div className="Header">
             <div className="logo">
-                <img src={logo} alt="logo" />
+               <Link to=""> <img src={logo} alt="logo" /></Link>
             </div>
             <nav>
                 <ul className="top__menu">
@@ -22,6 +23,7 @@ function Header() {
                     <li key={2}><a href="">Gallery</a></li>
                     <li key={3}><a href="">Shop</a></li>
                 </ul>
+            </div>
             </div>
         </div>
     )

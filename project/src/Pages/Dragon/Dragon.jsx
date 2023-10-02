@@ -4,17 +4,18 @@ import dragon from "../../img/Dragon.gif";
 function Dragon() {
     return (
         <div className="Main">
-            <section>
-                <div className="top-section">
-                    <h1>Dragon</h1>
-                    <p>
-                        The most powerful operational rocket in the world by a factor of two
-                    </p>
-                    
-                </div>
-                <img src={mainImg} alt="earth" />
-            </section>
-            <section>
+            <div className="container">
+                <section>
+                    <div className="top-section">
+                        <h1>Dragon</h1>
+                        <p>
+                            The most powerful operational rocket in the world by a factor of two
+                        </p>
+                        
+                    </div>
+                    <img src={mainImg} alt="earth" />
+                </section>
+                <section>
                 <div className='main-section'>
                     <div className="text-item">
                         <div className="item__data">
@@ -58,7 +59,8 @@ function Dragon() {
                         <img src={dragon} alt="Dragon" />
                     </div>
                 </div>
-            </section>
+                </section>
+             </div>
             
         </div>
     )

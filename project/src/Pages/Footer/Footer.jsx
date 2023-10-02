@@ -3,21 +3,23 @@ import "./Footer.css";
 
 function Footer() {
     return (
-        <div className="Footer">
-            <div className="logo">
-                <img src={logo} alt="logo" />
+        <div className="container">
+            <div className="Footer">
+                <div className="logo">
+                    <img src={logo} alt="logo" />
+                </div>
+                <ul>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="https://www.youtube.com/" target="blanck">Youtube</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Flickr</a></li>
+                    <li><a href="">LinkedIn</a></li>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Policy</a></li>
+                </ul>
+                <p>For additional questions, contact rideshare@spacex.com</p>
+                <button>Contact us</button>
             </div>
-            <ul>
-                <li><a href="">Twitter</a></li>
-                <li><a href="https://www.youtube.com/" target="blanck">Youtube</a></li>
-                <li><a href="">Instagram</a></li>
-                <li><a href="">Flickr</a></li>
-                <li><a href="">LinkedIn</a></li>
-                <li><a href="">Privacy</a></li>
-                <li><a href="">Policy</a></li>
-            </ul>
-            <p>For additional questions, contact rideshare@spacex.com</p>
-            <button>Contact us</button>
         </div>
     )
 }

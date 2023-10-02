@@ -5,7 +5,8 @@ import materials from "../../data/materials.json";
 
 function Updates() {
     return (
-        <div className="Updates">
+        <div className="container">
+            <div className="Updates">
             <section>
                 <div className="top__section">
                     <h1>Updates</h1>
@@ -48,6 +49,7 @@ function Updates() {
                    
             </section>
             
+            </div>
         </div>
     )
 }
