@@ -1,17 +1,23 @@
 [
     {
+        "path":"/Welcome/1",
+        "id": "1",
         "img": "/w1.jpeg",
         "title":"STARLINK MISSION",
         "subtitle": "RECENT LAUNCH"
     },
 
     {
+        "path":"/Welcome/2",
+        "id": "2",
         "img": "/w2.jpg",
         "title":"DRAGON AND CREW-6 RETURN TO EARTH",
         "subtitle": "COMPLETED MISSION"
     },
 
     {
+        "path":"/Welcome/3",
+        "id": "3",
         "img": "/w3.jpg",
         "title":"STARSHIP FLIGHT TEST",
         "subtitle": ""

@@ -8,6 +8,9 @@ import Falcon from './Pages/Falcon/Falcon';
 import Dragon from './Pages/Dragon/Dragon';
 import Updates from './Pages/Updates/Updates';
 import Welcome from './Pages/Welcome/Welcome';
+import Error from './Pages/Error/Error';
+import More from './Pages/Welcome/More';
+import material from "./data/welcomes.json";
 
 import {
   createBrowserRouter,
@@ -36,6 +39,9 @@ const router = createBrowserRouter(
       <Route path='Falcon' element={<Falcon />} />
       <Route path='Dragon' element={<Dragon />} />
       <Route path='Updates' element={<Updates />} />
+      <Route path='*' element={<Error />} />
+      <Route path='Welcome' element={<Welcome />} />
+      <Route path='Welcome/:moreId' loader={loader} element={<More/>} />
     </Route>
   )
 )
@@ -46,6 +52,12 @@ root.render(
   <RouterProvider router={router} />
  
 );
+
+function loader({ params }) {
+  const id = material.filter(e => e.id === params.moreId)
+  return id[0];
+  
+}
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
