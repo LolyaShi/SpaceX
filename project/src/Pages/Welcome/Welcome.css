@@ -55,6 +55,9 @@
     background-color: #fff;
     color: black;
 }
+.Welcome .btn{
+    margin-top: 40px;
+}
 .text__block a{
     font-size: 16px;
     color: #fff;

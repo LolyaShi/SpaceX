@@ -2,6 +2,7 @@ import logo from "../../img/logo.svg";
 import "./Footer.css";
 
 function Footer() {
+    
     return (
         <div className="container">
             <div className="Footer">
@@ -19,6 +20,7 @@ function Footer() {
                 </ul>
                 <p>For additional questions, contact rideshare@spacex.com</p>
                 <button>Contact us</button>
+                
             </div>
         </div>
     )
