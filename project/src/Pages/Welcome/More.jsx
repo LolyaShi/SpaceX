@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import "./Welcome.css";
 
 export default function More() {
@@ -8,8 +8,19 @@ export default function More() {
         
         <div className="More">
             <div className="container">
-                <h3>{id.subtitle }</h3>
-                <h1>{id.title}</h1>
+                <div className="more__body">
+                    <div className="img__block">
+                        <Link className="link" to="/Welcome">Back</Link>
+                        <img src={id.img} alt="starlink" />
+                    </div>
+                    <div className="text__block">
+                        <h3>{id.relese }</h3>
+                        <h1>{id.title}</h1>
+                        <p>{ id.about}</p>
+                    </div>
+                </div>
+                
+               
             </div>
          </div>
         

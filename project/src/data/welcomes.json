@@ -2,24 +2,30 @@
     {
         "path":"/Welcome/1",
         "id": "1",
+        "relese":"OCTOBER 5, 2023",
         "img": "/w1.jpeg",
         "title":"STARLINK MISSION",
-        "subtitle": "RECENT LAUNCH"
+        "subtitle": "RECENT LAUNCH",
+        "about":"On Thursday, October 5 at 1:36 a.m. ET, Falcon 9 launched 22 Starlink satellites to low-Earth orbit from Space Launch Complex 40 (SLC-40) at Cape Canaveral Space Force Station in Florida.This was the eighth flight for the first stage booster supporting this mission, which previously launched CRS-26, OneWeb Launch 16, Intelsat IS-40e, and now five Starlink missions"
     },
 
     {
         "path":"/Welcome/2",
         "id": "2",
+        "relese":"OCTOBER 5, 2023",
         "img": "/w2.jpg",
         "title":"DRAGON AND CREW-6 RETURN TO EARTH",
-        "subtitle": "COMPLETED MISSION"
+        "subtitle": "COMPLETED MISSION",
+        "about":"After almost 186 days in space, Dragon and Crew-6 NASA astronauts Stephen Bowen and Woody Hoburg, Rocosmos cosmonaut Andrey Fedyaev, and UAE (United Arab Emirates) astronaut Sultan Alneyadi returned to Earth and splashed down off the coast of Florida at 12:17 a.m. ET on Monday, September 4."
     },
 
     {
         "path":"/Welcome/3",
         "id": "3",
+        "relese":"OCTOBER 5, 2023",
         "img": "/w3.jpg",
         "title":"STARSHIP FLIGHT TEST",
-        "subtitle": ""
+        "subtitle": "",
+        "about":"Starship gave us quite a show during today’s first flight test of a fully integrated Starship and Super Heavy rocket from Starbase in Texas. At 8:33 a.m. CT, Starship successfully lifted off from the orbital launch pad for the first time. The vehicle cleared the pad and beach as Starship climbed to an apogee of ~39 km over the Gulf of Mexico – the highest of any Starship to-date. The vehicle experienced multiple engines out during the flight test, lost altitude, and began to tumble. The flight termination system was commanded on both the booster and ship. As is standard procedure, the pad and surrounding area was cleared well in advance of the test, and we expect the road and beach near the pad to remain closed until tomorrow."
     }
 ]

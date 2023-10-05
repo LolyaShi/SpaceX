@@ -41,7 +41,7 @@ const router = createBrowserRouter(
       <Route path='Updates' element={<Updates />} />
       <Route path='*' element={<Error />} />
       <Route path='Welcome' element={<Welcome />} />
-      <Route path='Welcome/:moreId' loader={loader} element={<More/>} />
+      <Route path='Welcome/:moreId' loader={loader} element={<More/>} errorElement={<Error/>} />
     </Route>
   )
 )
