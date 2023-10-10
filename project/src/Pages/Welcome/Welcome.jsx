@@ -1,7 +1,7 @@
 import Button from "../../Component/Button/Button";
 import datas from "../../data/welcomes.json";
 import "./Welcome.css";
-import { Link } from "react-router-dom";
+
 
 
 export default function Welcome() {

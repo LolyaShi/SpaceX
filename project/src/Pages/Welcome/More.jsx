@@ -1,6 +1,6 @@
 import { Link, useLoaderData } from "react-router-dom";
 import "./Welcome.css";
-import Button from "../../Component/Button/Button";
+
 
 export default function More() {
     const id = useLoaderData();
