@@ -10,6 +10,7 @@ import Updates from './Pages/Updates/Updates';
 import Welcome from './Pages/Welcome/Welcome';
 import Error from './Pages/Error/Error';
 import More from './Pages/Welcome/More';
+import About from './Pages/About/About';
 import material from "./data/welcomes.json";
 
 import {
@@ -39,6 +40,7 @@ const router = createBrowserRouter(
       <Route path='Falcon' element={<Falcon />} />
       <Route path='Dragon' element={<Dragon />} />
       <Route path='Updates' element={<Updates />} />
+      <Route path='About' element={<About />} />
       <Route path='*' element={<Error />} />
       <Route path='Welcome' element={<Welcome />} />
       <Route path='Welcome/:moreId' loader={loader} element={<More/>} errorElement={<Error/>} />

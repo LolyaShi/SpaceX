@@ -19,7 +19,7 @@ function Header() {
             </nav>
             <div className="side__nav">
                  <ul className="side__menu">
-                    <li key={1}><a href="">About</a></li>
+                    <li key={1}><Link to="/About">About</Link></li>
                     <li key={2}><a href="">Gallery</a></li>
                     <li key={3}><a href="">Shop</a></li>
                 </ul>
