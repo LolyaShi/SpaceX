@@ -2,6 +2,7 @@ import earth from "../../img/earth.jpg";
 import starship from "../../img/starship.jpg";
 import dragon from "../../img/dragon.png";
 import satellite from "../../img/satellite.jpg";
+import start from "../../img/start.gif";
 import "./About.css";
 import Button from "../../Component/Button/Button";
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -93,6 +94,28 @@ export default function About() {
 
                     </Swiper>
                     </div>
+            </section>
+            <section>
+                <div className="container">
+                    <div className="reuse">
+                        <div className="img__block">
+                            <img src={start} alt="reuSABILITY" />
+                        </div>
+                        <div className="body__block">
+                            <h2>REUSABILITY</h2>
+                            <p>
+                                SpaceX believes a fully and rapidly reusable rocket is the pivotal breakthrough needed to substantially reduce the cost of space access. The majority of the launch cost comes from building the rocket, which historically has flown only once.
+                            </p>
+                            <p>
+                                Compare that to a commercial airliner – each new plane costs about the same as Falcon 9 but can fly multiple times per day and conduct tens of thousands of flights over its lifetime. Following the commercial model, a rapidly reusable space launch vehicle could reduce the cost of traveling to space by a hundredfold.
+                            </p>
+                            <p>
+                                While most rockets are designed to burn up on reentry, SpaceX rockets can not only withstand reentry but can also successfully land back on Earth and refly again.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
             </section>
            
         </div>
