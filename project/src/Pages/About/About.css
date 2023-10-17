@@ -136,3 +136,39 @@
     line-height: 26px;
     margin-top: 10px;
 }
+
+.landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.landing p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 10px;
+    max-width: 500px;
+}
+
+.switch{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 50px;
+    color: #a19f9fb9;
+}
+.switch span{
+    padding: 0 10px;
+}
+.switch .active{
+    color: #fff;
+}
+.switch__block{
+    margin-top: 50px;
+    align-self: center;
+}
+.switch__block img{
+    max-width: 100%;
+    object-fit: c;
+}

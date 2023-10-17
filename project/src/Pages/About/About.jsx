@@ -3,6 +3,8 @@ import starship from "../../img/starship.jpg";
 import dragon from "../../img/dragon.png";
 import satellite from "../../img/satellite.jpg";
 import start from "../../img/start.gif";
+import mission from "../../img/mission.png";
+import lend from "../../img/landing-zone.jpg";
 import "./About.css";
 import Button from "../../Component/Button/Button";
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -117,7 +119,27 @@ export default function About() {
                 </div>
                 
             </section>
-           
+            
+            <section>
+                <div className="container">
+                    <div className="landing">
+                        <h2>LANDING</h2>
+                        <p>
+                            SpaceX’s family of Falcon launch vehicles are the first and only orbital class rockets capable of reflight. Depending on the performance required for the mission, Falcon lands on one of our autonomous spaceport droneships out on the ocean or one of our landing zones near our launch pads.
+                        </p>
+                        <div className="switch">
+                            <span className="active" >DRONESHIP</span> |
+                            <span>LANDING ZONE</span>
+                        </div>
+                        <div className="switch__block">
+                            <img src={lend} alt="" />
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+            
         </div>
     )
 }
