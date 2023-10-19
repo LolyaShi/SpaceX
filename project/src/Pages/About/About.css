@@ -160,6 +160,10 @@
 }
 .switch span{
     padding: 0 10px;
+    transition: all .5s;
+}
+.switch span:hover{
+    color: #fff;
 }
 .switch .active{
     color: #fff;

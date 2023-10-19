@@ -12,9 +12,27 @@ import { Navigation, Pagination, A11y } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-
+import { useRef, useState } from "react";
 
 export default function About() {
+
+    const col1 = useRef();
+    const col2 = useRef()
+    const block = useRef();
+    const [activeState, setActiveState] = useState(false);
+
+    function click() {
+        setActiveState(activeState => !activeState);
+        
+        if (activeState) {
+            col1.current.className = "active";
+        }
+        else {
+            col1.current.className = "";
+        }
+    }
+    
+
     return (
         <div className="About">
             <section>
@@ -127,9 +145,9 @@ export default function About() {
                         <p>
                             SpaceX’s family of Falcon launch vehicles are the first and only orbital class rockets capable of reflight. Depending on the performance required for the mission, Falcon lands on one of our autonomous spaceport droneships out on the ocean or one of our landing zones near our launch pads.
                         </p>
-                        <div className="switch">
-                            <span className="active" >DRONESHIP</span> |
-                            <span>LANDING ZONE</span>
+                        <div ref={block} className="switch">
+                            <span ref={col1} onClick={click}  >DRONESHIP</span> |
+                            <span ref={col2} onClick={click}  >LANDING ZONE</span>
                         </div>
                         <div className="switch__block">
                             <img src={lend} alt="" />
