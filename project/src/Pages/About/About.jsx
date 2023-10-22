@@ -5,13 +5,14 @@ import satellite from "../../img/satellite.jpg";
 import start from "../../img/start.gif";
 import mission from "../../img/mission.png";
 import lend from "../../img/landing-zone.jpg";
-import "./About.css";
+
 import Button from "../../Component/Button/Button";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, A11y } from 'swiper/modules';
+import { Navigation, Pagination, A11y, History } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import "./About.css";
 import { useRef, useState } from "react";
 
 export default function About() {
@@ -80,11 +81,11 @@ export default function About() {
             <section>
                 <div className="container2">
                     <Swiper
-                        modules={[Navigation, Pagination, A11y]}
+                        modules={[Navigation, Pagination, A11y, History]}
                         navigation
                         pagination={{ clickable: true }}
                     >
-                        <SwiperSlide>
+                        <SwiperSlide data-swiper-slide-index="1">
                             <div className="slide">
                                 <img src={satellite} alt="" />
                                 <div className="container">
@@ -112,6 +113,7 @@ export default function About() {
                             </div>
                         </SwiperSlide>
 
+                       
                     </Swiper>
                     </div>
             </section>

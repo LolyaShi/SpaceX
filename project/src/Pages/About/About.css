@@ -110,8 +110,32 @@
     position: absolute;
     top: 90%;
     z-index: 10;
- 
+    font-weight: 800;
 }
+.swiper-button-prev{
+    left: 50px;
+}
+.swiper-button-next{
+    right: 50px;
+}
+:root {
+    --swiper-theme-color: #ffffff;
+    
+    --swiper-navigation-size: 30px;
+}
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, auto);
+    top: var(--swiper-pagination-top, 8px);
+}
+
+.swiper-pagination-bullets {
+   width: 10px;
+   height: 10px;
+}
+
 
 .reuse{
     display: flex;
